@@ -1,0 +1,18 @@
+{
+  "version": "0.1.0",
+  "description": "php development fast",
+  "name": "php",
+  "main": "index.php",
+  "scripts": {
+    "start": "php -S localhost:8082",
+    "dev": "gulp dev"
+  },
+  "author": "Milad Vafaeifard <milad.vafaeifard@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.26.5",
+    "gulp": "^4.0.2",
+    "gulp-connect-php": "^1.0.3",
+    "gulp-zip": "^4.2.0"
+  }
+}
